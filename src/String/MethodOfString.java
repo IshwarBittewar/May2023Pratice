@@ -1,5 +1,7 @@
 package String;
 
+import java.util.Scanner;
+
 public class MethodOfString {
 
 	public static void main(String[] args) {
@@ -38,6 +40,22 @@ public class MethodOfString {
 		for (int i=0; i<newname.length; i++) {
 			System.out.println(newname[i]);
 		}
+		
+		
+		
 	}
+	
+	public static void demo111() {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Number");
+		
+		int num=sc.nextInt();
+		
+		int fact;
+		
+		
+	}
+	
 	
 }
